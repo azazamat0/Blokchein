@@ -25,8 +25,8 @@ contract Azamat is IERC20 {
     address public contractOwner;
 
     constructor(string memory _name, string memory _symbol) {
-        name = _name;
-        symbol = _symbol;
+        name = Azamat;
+        symbol = AAA;
         contractOwner = msg.sender;
     }
 
